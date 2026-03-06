@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Erick Colier | Portafolio Profesional</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">EC<span>.</span></a>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#about"      class="nav-link">Sobre mi</a></li>
+        <li><a href="#skills"     class="nav-link">Habilidades</a></li>
+        <li><a href="#experience" class="nav-link">Experiencia</a></li>
+        <li><a href="#education"  class="nav-link">Formacion</a></li>
+        <li><a href="#contact"    class="nav-link btn-nav">Contacto</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-particles" id="particles"></div>
+    <div class="hero-content">
+      <p class="hero-greeting">Hola, soy</p>
+      <h1 class="hero-name">Erick Colier</h1>
+      <div class="hero-title-wrap">
+        <span class="typing-text" id="typing-text"></span><span class="cursor">|</span>
+      </div>
+      <p class="hero-location">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+        Santiago, Chile
+      </p>
+      <div class="hero-cta">
+        <a href="#contact"    class="btn btn-primary">Contactarme</a>
+        <a href="#experience" class="btn btn-outline">Ver experiencia</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://linkedin.com/in/erickcolier" target="_blank" rel="noopener" class="social-link" title="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="mailto:erickcolier@gmail.com" class="social-link" title="Email">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        </a>
+        <a href="tel:+56947320759" class="social-link" title="Telefono">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Quién soy</span>
+        <h2 class="section-title">Sobre <span>mi</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-avatar reveal">
+          <div class="avatar-ring">
+            <img src="perfil.png" alt="Erick Colier" class="avatar-inner" />
+          </div>
+          <div class="stats-row">
+            <div class="stat-card">
+              <span class="stat-num">10+</span>
+              <span class="stat-lbl">Anos de<br>experiencia</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">3</span>
+              <span class="stat-lbl">Empresas<br>destacadas</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">2</span>
+              <span class="stat-lbl">Paises<br>trabajados</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <p>Soy <strong>Ingeniero Industrial y Tecnico Electrico</strong> especializado en la digitalizacion y automatizacion de procesos operativos, comerciales y tecnicos.</p>
+          <p>No soy un desarrollador de software tradicional — soy un ingeniero con experiencia directa en terreno que entiende <em>"los fierros"</em> del negocio solar (proyectos fotovoltaicos On-Grid / Off-Grid, normativas TE4 y Netbilling) y utiliza la programacion para transformar flujos de trabajo manuales en <strong>soluciones digitales agiles</strong>.</p>
+          <p>Orientado a resultados, con experiencia en Python, integracion de APIs, bases de datos y herramientas de automatizacion para acelerar el dimensionamiento, optimizar la gestion comercial e integrar plataformas corporativas, aportando eficiencia operativa y escalabilidad directa al negocio.</p>
+          <div class="about-pills">
+            <span>Python</span>
+            <span>APIs</span>
+            <span>SQL / SQLite</span>
+            <span>Fotovoltaico</span>
+            <span>N8N</span>
+            <span>IA Generativa</span>
+            <span>Git</span>
+            <span>React</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Que se hacer</span>
+        <h2 class="section-title">Habilidades <span>Tecnicas</span></h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <div class="skill-card-icon">&#9889;</div>
+          <h3>Desarrollo & Herramientas</h3>
+          <ul>
+            <li><span class="dot"></span>Python</li>
+            <li><span class="dot"></span>Integracion de APIs</li>
+            <li><span class="dot"></span>Git</li>
+            <li><span class="dot"></span>SQL / SQLite</li>
+            <li><span class="dot"></span>N8N</li>
+            <li><span class="dot"></span>React (en formacion)</li>
+          </ul>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-card-icon">&#129302;</div>
+          <h3>Automatizacion e IA</h3>
+          <ul>
+            <li><span class="dot"></span>Integracion de sistemas</li>
+            <li><span class="dot"></span>Automatizacion de documentos</li>
+            <li><span class="dot"></span>Implementacion de chatbots</li>
+            <li><span class="dot"></span>IA generativa aplicada</li>
+            <li><span class="dot"></span>Optimizacion de procesos</li>
+          </ul>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-card-icon">&#9728;</div>
+          <h3>Ingenieria Electrica Solar</h3>
+          <ul>
+            <li><span class="dot"></span>Sistemas Fotovoltaicos</li>
+            <li><span class="dot"></span>On-Grid / Off-Grid / Hibridos</li>
+            <li><span class="dot"></span>Normativa Electrica TE4</li>
+            <li><span class="dot"></span>Netbilling</li>
+            <li><span class="dot"></span>Dimensionamiento solar</li>
+          </ul>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-card-icon">&#128202;</div>
+          <h3>Ecosistemas & Software</h3>
+          <ul>
+            <li><span class="dot"></span>Google Workspace</li>
+            <li><span class="dot"></span>Microsoft 365</li>
+            <li><span class="dot"></span>MS Excel avanzado</li>
+            <li><span class="dot"></span>Drive + Excel + CRM</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="soft-skills reveal">
+        <h3>Competencias Clave</h3>
+        <div class="soft-grid">
+          <div class="soft-item">Orientacion a negocio</div>
+          <div class="soft-item">Autonomia</div>
+          <div class="soft-item">Curiosidad tecnologica</div>
+          <div class="soft-item">Flexibilidad</div>
+          <div class="soft-item">Responsabilidad</div>
+          <div class="soft-item">Excelencia tecnica</div>
+        </div>
+      </div>
+
+      <div class="languages reveal">
+        <h3>Idiomas</h3>
+        <div class="lang-list">
+          <div class="lang-item">
+            <div class="lang-meta">
+              <span class="lang-name">Espanol</span>
+              <span class="lang-level">Nativo</span>
+            </div>
+            <div class="lang-bar"><div class="lang-fill" data-width="100"></div></div>
+          </div>
+          <div class="lang-item">
+            <div class="lang-meta">
+              <span class="lang-name">Ingles Tecnico</span>
+              <span class="lang-level">B2 Avanzado</span>
+            </div>
+            <div class="lang-bar"><div class="lang-fill" data-width="75"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Trayectoria</span>
+        <h2 class="section-title">Experiencia <span>Profesional</span></h2>
+      </div>
+      <div class="timeline">
+
+        <div class="tl-item reveal">
+          <div class="tl-marker">
+            <div class="tl-dot"></div>
+          </div>
+          <div class="tl-card">
+            <div class="tl-badge current">Actual</div>
+            <h3>Ingeniero de Proyectos Solares y Automatizacion</h3>
+            <div class="tl-company">MGD Servicios Electricos</div>
+            <div class="tl-meta">
+              <span>Region Metropolitana, Chile</span>
+              <span>Enero 2024 &ndash; Presente</span>
+            </div>
+            <ul class="tl-duties">
+              <li><strong>Digitalizacion y Automatizacion Solar:</strong> Implementacion de bases de datos SQL/SQLite para automatizar el dimensionamiento solar y calculos de proyectos, acelerando la generacion de propuestas tecnicas y comerciales.</li>
+              <li><strong>Integracion de Sistemas y Flujos Digitales:</strong> Diseno de integraciones mediante APIs para conectar informacion tecnica de terreno con Excel, Google Workspace y Microsoft 365, eliminando tareas de doble digitacion.</li>
+              <li><strong>Ejecucion y Normativa Electrica:</strong> Liderazgo tecnico de proyectos fotovoltaicos On-Grid y Off-Grid, diseno de flujos para tramitacion TE4 e implementacion de herramientas internas de trazabilidad operativa.</li>
+            </ul>
+            <div class="tl-tags">
+              <span>Python</span><span>SQL</span><span>APIs</span><span>Fotovoltaico</span><span>TE4</span><span>Netbilling</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-marker">
+            <div class="tl-dot"></div>
+          </div>
+          <div class="tl-card">
+            <h3>Ingeniero de Procesos, Automatizacion y Logistica</h3>
+            <div class="tl-company">BAUMAX.CL</div>
+            <div class="tl-meta">
+              <span>Santiago, Chile</span>
+              <span>Sep 2017 &ndash; May 2021</span>
+            </div>
+            <ul class="tl-duties">
+              <li><strong>Automatizacion de Procesos Clave:</strong> Digitalizacion de gestion de almacenamiento y control de stock, transformando procesos manuales en herramientas internas agiles y funcionales.</li>
+              <li><strong>Analisis de Datos y Reportabilidad:</strong> Extraccion, consolidacion y analisis de datos operativos, automatizando reportes gerenciales e indicadores de gestion logistica.</li>
+              <li><strong>Optimizacion de Flujos Comerciales:</strong> Identificacion de cuellos de botella e implementacion de soluciones rapidas bajo filosofia de mejora continua.</li>
+            </ul>
+            <div class="tl-tags">
+              <span>Automatizacion</span><span>Bases de Datos</span><span>Logistica</span><span>Reportes</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-marker">
+            <div class="tl-dot"></div>
+          </div>
+          <div class="tl-card">
+            <h3>Inspector Electrico &ndash; Infraestructura y Mantenimiento</h3>
+            <div class="tl-company">Corporacion Electrica Nacional (CORPOELEC)</div>
+            <div class="tl-meta">
+              <span>Venezuela</span>
+              <span>Ago 2014 &ndash; Ago 2016</span>
+            </div>
+            <ul class="tl-duties">
+              <li><strong>Gestion de Infraestructura Electrica:</strong> Supervision de proyectos de construccion, mantenimiento y expansion de redes electricas, validando calidad y cumplimiento de especificaciones.</li>
+              <li><strong>Resolucion de Problemas:</strong> Analisis de viabilidad tecnica y coordinacion con ingenieros y contratistas para deteccion y resolucion de fallas en equipos criticos.</li>
+            </ul>
+            <div class="tl-tags">
+              <span>Redes Electricas</span><span>Inspeccion</span><span>Mantenimiento</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Aprendizaje</span>
+        <h2 class="section-title">Formacion <span>Academica</span></h2>
+      </div>
+      <div class="edu-grid">
+
+        <div class="edu-card featured reveal">
+          <div class="edu-top">
+            <div class="edu-icon-wrap">&#128187;</div>
+            <span class="edu-badge-featured">En Curso</span>
+          </div>
+          <h3>Full Stack Developer</h3>
+          <p class="edu-sub">Python &middot; React &middot; Bases de Datos</p>
+          <span class="edu-inst">Bootcamp Academy &middot; Online</span>
+          <span class="edu-date">2025 &ndash; 2026 &middot; 540 horas</span>
+        </div>
+
+        <div class="edu-card reveal">
+          <div class="edu-top">
+            <div class="edu-icon-wrap">&#9728;</div>
+          </div>
+          <h3>Diseno de Sistemas Solares</h3>
+          <span class="edu-inst">State University of New York</span>
+          <span class="edu-date">2025 &middot; 20 horas</span>
+        </div>
+
+        <div class="edu-card reveal">
+          <div class="edu-top">
+            <div class="edu-icon-wrap">&#128268;</div>
+          </div>
+          <h3>Instalador Electrico y Fotovoltaico SEC</h3>
+          <span class="edu-inst">SENCE</span>
+          <span class="edu-date">2023 &ndash; 2024 &middot; 420 horas</span>
+        </div>
+
+        <div class="edu-card reveal">
+          <div class="edu-top">
+            <div class="edu-icon-wrap">&#127963;</div>
+          </div>
+          <h3>Ingenieria Industrial</h3>
+          <span class="edu-inst">Universidad de Carabobo &middot; Valencia, Venezuela</span>
+          <span class="edu-date">2015</span>
+        </div>
+
+        <div class="edu-card reveal">
+          <div class="edu-top">
+            <div class="edu-icon-wrap">&#9881;</div>
+          </div>
+          <h3>Tecnico Electricista de Mantenimiento</h3>
+          <span class="edu-inst">I.N.C.E &middot; Venezuela</span>
+          <span class="edu-date">2011</span>
+        </div>
+
+        <div class="edu-card reveal">
+          <div class="edu-top">
+            <div class="edu-icon-wrap">&#127760;</div>
+          </div>
+          <h3>Ingles Avanzado</h3>
+          <span class="edu-inst">Language College &middot; Venezuela</span>
+          <span class="edu-date">B2</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Trabajemos juntos</span>
+        <h2 class="section-title">Hablemos <span>&#128075;</span></h2>
+      </div>
+      <p class="contact-intro reveal">Disponible para nuevas oportunidades laborales, proyectos de automatizacion o colaboraciones tecnicas.</p>
+      <div class="contact-grid">
+
+        <div class="contact-info reveal">
+          <a href="mailto:erickcolier@gmail.com" class="contact-item">
+            <div class="contact-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            </div>
+            <div>
+              <span class="ci-label">Email</span>
+              <span class="ci-value">erickcolier@gmail.com</span>
+            </div>
+          </a>
+          <a href="tel:+56947320759" class="contact-item">
+            <div class="contact-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            </div>
+            <div>
+              <span class="ci-label">Telefono</span>
+              <span class="ci-value">+56 9 4732 0759</span>
+            </div>
+          </a>
+          <div class="contact-item">
+            <div class="contact-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            </div>
+            <div>
+              <span class="ci-label">Ubicacion</span>
+              <span class="ci-value">Santiago, Chile</span>
+            </div>
+          </div>
+          <a href="https://linkedin.com/in/erickcolier" target="_blank" rel="noopener" class="contact-item">
+            <div class="contact-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </div>
+            <div>
+              <span class="ci-label">LinkedIn</span>
+              <span class="ci-value">linkedin.com/in/erickcolier</span>
+            </div>
+          </a>
+        </div>
+
+        <form class="contact-form reveal" id="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Nombre</label>
+              <input type="text" name="name" placeholder="Tu nombre completo" required />
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" name="email" placeholder="tu@email.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Asunto</label>
+            <input type="text" name="subject" placeholder="De que se trata" />
+          </div>
+          <div class="form-group">
+            <label>Mensaje</label>
+            <textarea name="message" rows="5" placeholder="Cuentame sobre tu proyecto u oportunidad..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <span>Enviar mensaje</span>
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+          </button>
+          <p class="form-note" id="form-msg"></p>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <span class="footer-logo">EC<span>.</span></span>
+      <p>Disenado y desarrollado por <strong>Erick Colier</strong></p>
+      <p class="footer-sub">Ingeniero Industrial &amp; Electrico &middot; Automatizacion &middot; Full Stack Dev</p>
+      <div class="footer-socials">
+        <a href="https://linkedin.com/in/erickcolier" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:erickcolier@gmail.com">Email</a>
+        <a href="tel:+56947320759">+56 9 4732 0759</a>
+      </div>
+      <p class="footer-copy">&copy; 2025 Erick Colier &middot; Santiago, Chile</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
